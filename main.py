@@ -28,9 +28,9 @@ from bs4 import BeautifulSoup
 
 # Please use one space to separate multiple accounts
 # euserv customer id
-CUSTOMERIDS = os.environ["CUSTOMERIDS"]
+CUSTOMERIDS = os.environ["USERNAME"]
 # euserv password
-PASSWORDS = os.environ["PASSWORDS"]
+PASSWORDS = os.environ["PASSWORD"]
 
 # default value is TrueCaptcha demo credential,
 # you can use your own credential via set environment variables:
@@ -44,8 +44,8 @@ PASSWORDS = os.environ["PASSWORDS"]
 # }
 # demo userid: arun56
 # demo apikey: wMjXmBIcHcdYqO2RrsVN
-TRUECAPTCHA_USERID = os.environ.get("TRUECAPTCHA_USERID", "euextend")
-TRUECAPTCHA_APIKEY = os.environ.get("TRUECAPTCHA_APIKEY", "deJhWBaqgd6QDN4BqJGf")
+TRUECAPTCHA_USERID = os.environ.get("TRUECAPTCHA_USERID", "holyhbc")
+TRUECAPTCHA_APIKEY = os.environ.get("TRUECAPTCHA_APIKEY", "o2AhMjXrPpCYLskdxIEf")
 
 # Checking CAPTCHA API usage, options: True or False
 CHECK_CAPTCHA_SOLVER_USAGE = True
@@ -80,9 +80,9 @@ LOGIN_MAX_RETRY_COUNT = 5
 
 # Telegram Bot Push https://core.telegram.org/bots/api#authorizing-your-bot
 # Obtained via @BotFather application, for example: 1077xxx4424:AAFjv0FcqxxxxxxgEMGfi22B4yh15R5uw
-TG_BOT_TOKEN = ""
+TG_BOT_TOKEN = "1891322218:AAE12KFKnTj1KXco_s5qubx7CvLAF8eCaXQ"
 # User, group or channel ID, for example: 129xxx206
-TG_USER_ID = ""
+TG_USER_ID = "-564824034"
 # Build your own API reverse proxy address for use when the network environment is inaccessible,
 # and keep the default if the network is normal.
 TG_API_HOST = "https://api.telegram.org"
